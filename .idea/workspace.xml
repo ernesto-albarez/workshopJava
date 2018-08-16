@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57eb43cb-967d-46d2-b5d9-2c8d49743965" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ealbarez.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__backport_util_concurrent_backport_util_concurrent_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_6_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_M7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nekohtml_nekohtml_1_9_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nekohtml_xercesMinimal_1_9_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_jcr_commons_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_webdav_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_logging_api_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_error_diagnostics_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_monitor_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_descriptor_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_parameter_documenter_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_toolchain_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugin_tools_maven_plugin_annotations_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_surefire_plugin_2_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_api_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_maven_surefire_common_2_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_2_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_booter_2_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_logger_api_2_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_1_0_beta_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_shared_1_0_beta_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_webdav_jackrabbit_1_0_beta_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_0_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_5_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_jdk14_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workshopJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aut_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/chromeDriver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/firefoxDriver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excelSheet/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/findSeleniumLink/ss2018-08-08_17-43-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/findSeleniumLink/ss2018-08-08_17-49-22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_check_the_header_size_after_scrolling/ss2018-08-10_14-40-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_check_the_header_size_after_scrolling/ss2018-08-10_14-52-23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_clikcs_on_search_icon/ss2018-08-08_18-27-44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_clikcs_on_search_icon/ss2018-08-08_18-56-28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_clikcs_on_search_icon/ss2018-08-10_14-53-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_creates_a_page_object_from_search_results/ss2018-08-10_17-45-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_creates_a_page_object_from_search_results/ss2018-08-10_17-46-42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_14-14-57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_14-18-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_14-28-39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_14-33-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_17-21-39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_18-18-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_18-33-27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_18-39-44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_18-42-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_18-48-00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_18-49-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-09_19-10-48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-10_14-40-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_opens_a_random_post/ss2018-08-10_14-52-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_selects_a_random_post_and_opens/ss2018-08-10_15-07-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/it_selects_a_random_post_and_opens/ss2018-08-10_15-10-59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/successful_login/ss2018-08-08_10-13-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/successful_login/ss2018-08-08_11-56-59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/successful_login/ss2018-08-13_11-55-49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/PlaceHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Textbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/ExcelDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/PropertiesProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/DriverExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/DriverInstanceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/WebElementExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/PropertyInstanceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GitHubHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GitHubLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GooglePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/UltimateqaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.property" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test3.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/auto_demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-172314899">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="UltimateqaPage" value="1" />
+          <entry key="class" value="1" />
+          <entry key="html" value="1" />
+          <entry key="java" value="118" />
+          <entry key="property" value="1" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="119" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="UltimateqaPage" value="367" />
+          <entry key="java" value="4652" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5019" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1951405015">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="2" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.getText().toLowerCase().contains</find>
+      <find>getText().toLowerCase().contains</find>
+      <find>link().get</find>
+      <find>link().gettex</find>
+      <find>link().getText().toLowerCase()</find>
+      <find>link().getText().toLowe</find>
+      <find>textb</find>
+      <find>getText</find>
+      <find>DriverInstanceManager</find>
+      <find>placeholder</find>
+      <find>.search_placeholder</find>
+      <find>ultimateqaPage.search_placeholder</find>
+      <find>ultimateqaPage.</find>
+      <find>place</find>
+      <find>search_placeholder</find>
+      <find>ultimateqaPage</find>
+      <find>go bac</find>
+      <find>//Go back home url</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/auto_demo/src/test/java/Test2.java" />
+        <option value="$PROJECT_DIR$/auto_demo/src/main/java/pages/UltimateqaPage" />
+        <option value="$PROJECT_DIR$/auto_demo/src/main/java/controller/Button.java" />
+        <option value="$PROJECT_DIR$/auto_demo/src/main/java/controller/Label.java" />
+        <option value="$PROJECT_DIR$/auto_demo/src/main/java/controller/SrollBar.java" />
+        <option value="$PROJECT_DIR$/auto_demo/src/main/java/controller/Header.java" />
+        <option value="$PROJECT_DIR$/auto_demo/src/main/java/controller/Link.java" />
+        <option value="$PROJECT_DIR$/auto_demo/src/main/java/controller/PlaceHolder.java" />
+        <option value="$PROJECT_DIR$/auto_demo/src/main/java/controller/Textbox.java" />
+        <option value="$PROJECT_DIR$/auto_demo/src/main/java/pages/UltimateqaPage.java" />
+        <option value="$PROJECT_DIR$/auto_demo/result.xml" />
+        <option value="$PROJECT_DIR$/auto_demo/src/test/java/Test3.java" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="showBasicPhasesOnly" value="false" />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="210" />
+    <option name="y" value="70" />
+    <option name="width" value="1613" />
+    <option name="height" value="888" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="workshopJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workshopJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workshopJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workshopJava" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;getlinktext&#9;PSI&#9;JAVA://javax.swing.JEditorPane.JEditorPaneAccessibleHypertextSupport#getLinkText" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534434000522" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/auto_demo/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ealbarez\Downloads\workshopJava\auto_demo\src\main\java\controller" />
+      <recent name="C:\Users\ealbarez\Downloads\workshopJava\auto_demo\src\test\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.Unnamed">
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="compile" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/auto_demo" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Users/ealbarez/Downloads/workshopJava/auto_demo/result.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <module name="workshopJava" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/auto_demo/result.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/ealbarez/Downloads/workshopJava/auto_demo/result.xml" />
+      <item itemvalue="Maven.Unnamed" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ealbarez\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57eb43cb-967d-46d2-b5d9-2c8d49743965" name="Default Changelist" comment="" />
+      <created>1533732618836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533732618836</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="C__Users_ealbarez_Downloads_workshopJava_auto_demo_result_xml - 2018.08.08 at 10h 50m 59s.xml">
+      <configuration name="C:/Users/ealbarez/Downloads/workshopJava/auto_demo/result.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_ealbarez_Downloads_workshopJava_auto_demo_result_xml - 2018.08.08 at 10h 51m 07s.xml">
+      <configuration name="C:/Users/ealbarez/Downloads/workshopJava/auto_demo/result.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_ealbarez_Downloads_workshopJava_auto_demo_result_xml - 2018.08.08 at 10h 51m 25s.xml">
+      <configuration name="C:/Users/ealbarez/Downloads/workshopJava/auto_demo/result.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_ealbarez_Downloads_workshopJava_auto_demo_result_xml - 2018.08.08 at 10h 52m 51s.xml">
+      <configuration name="C:/Users/ealbarez/Downloads/workshopJava/auto_demo/result.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_ealbarez_Downloads_workshopJava_auto_demo_result_xml - 2018.08.08 at 10h 53m 31s.xml">
+      <configuration name="C:/Users/ealbarez/Downloads/workshopJava/auto_demo/result.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7270789" weight="0.29365963" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7553305" weight="0.39933258" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4978678" visible="true" weight="0.50278085" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.27292112" side_tool="true" weight="0.3994528" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989339" weight="0.32925472" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.124200426" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.12260128" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/auto_demo" />
+    </ignored-roots>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="1008" selection-start-line="1008" selection-end-line="1008" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/ApplicationShutdownHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.desktop/javax/swing/JEditorPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="2086" column="22" selection-start-line="2086" selection-start-column="22" selection-end-line="2086" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/driver/DriverExtension.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/driver/DriverInstanceManager.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/driver/WebElementExtension.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/SrollBar.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Header.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/GitHubHomePage.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/target/test-classes/Test3.class" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Textbox.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/BaseController.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Button.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Label.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Image.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/BasePage.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/test/java/Test2.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/PlaceHolder.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/resources/config.property" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Link.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/test/java/BaseTest.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/target/surefire-reports/emailable-report.html" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/data/ExcelDataProvider.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/data/PropertiesProvider.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/GooglePage.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/GitHubLoginPage.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/ResultPage.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workshopJava.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_demo/aut_demo.iml" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/UltimateqaPage.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/test/java/Test3.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/result.xml" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/src/test/java/Test1.java" />
+    <entry file="file://$PROJECT_DIR$/auto_demo/.idea/modules.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="118" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_demo/.idea/vcs.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_demo/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

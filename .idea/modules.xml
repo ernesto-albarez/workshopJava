@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/aut_demo.iml" filepath="$PROJECT_DIR$/aut_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/workshopJava.iml" filepath="$PROJECT_DIR$/.idea/workshopJava.iml" />
     </modules>
   </component>

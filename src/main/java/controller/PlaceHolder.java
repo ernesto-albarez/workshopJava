@@ -15,8 +15,7 @@ public class PlaceHolder extends BaseController {
 	public String getText(){
 		try{
 			return getElement().getAttribute("placeholder");
-		}
-		catch(NoSuchElementException e){
+		} catch(NoSuchElementException e){
 			return null;
 		}
 	}
@@ -25,8 +24,7 @@ public class PlaceHolder extends BaseController {
 		try{
 			getElement().clear();
 			getElement().sendKeys(text);
-		}
-		catch(NoSuchElementException e){
+		} catch(NoSuchElementException e){
 			System.out.println(e.getMessage());
 		}
 	}
@@ -35,8 +33,7 @@ public class PlaceHolder extends BaseController {
 		try{
 			getElement().clear();
 			getElement().sendKeys(key);
-		}
-		catch(NoSuchElementException e){
+		} catch(NoSuchElementException e){
 			System.out.println(e.getMessage());
 		}
 	}

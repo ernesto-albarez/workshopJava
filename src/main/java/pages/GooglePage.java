@@ -13,38 +13,26 @@ public class GooglePage extends BasePage {
 		super(By.xpath(""));
 	}
 	
-	public Textbox search_txtb()
-	{
-		try
-		{
+	public Textbox search_txtb(){
+		try{
 			return new Textbox(By.id("lst-ib"));
-		}
-		catch(NoSuchElementException e)
-		{
+		}catch(NoSuchElementException e){
 			return null;
 		}
 	}
 	
-	public Button search_btn()
-	{
-		try
-		{
+	public Button search_btn(){
+		try{
 			return new Button(By.xpath("//*[@value='Google Search']"));
-		}
-		catch(NoSuchElementException e)
-		{
+		}catch(NoSuchElementException e){
 			return null;
 		}
 	}
 
-	public Link result_link(String link)
-	{
-		try
-		{
+	public Link result_link(String link){
+		try{
 			return new Link(By.xpath("//a[@href='"+link+"']"));
-		}
-		catch(NoSuchElementException e)
-		{
+		}catch(NoSuchElementException e){
 			return null;
 		}
 	}

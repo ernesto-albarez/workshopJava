@@ -14,9 +14,7 @@ public class GitHubHomePage extends BasePage {
     public Button profile_btn(){
         try{
             return new Button(By.xpath("//ul[@id='user-links']/li/details/summary[@class='HeaderNavlink name mt-1']"));
-
-        }
-        catch(NoSuchElementException e){
+        } catch(NoSuchElementException e){
             return null;
         }
     }
@@ -24,9 +22,7 @@ public class GitHubHomePage extends BasePage {
     public Label username_lbl(){
         try{
             return new Label(By.xpath("//ul[@id='user-links']/li/details/details-menu/ul/li/strong"));
-
-        }
-        catch(NoSuchElementException e){
+        } catch(NoSuchElementException e){
             return null;
         }
     }

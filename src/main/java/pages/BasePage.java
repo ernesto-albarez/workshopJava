@@ -11,7 +11,6 @@ import driver.DriverInstanceManager;
 public class BasePage implements Closeable  {
 
 	protected By locator;
-	
 	public BasePage(By by) {
 		this.locator = by;
 	}
@@ -19,7 +18,6 @@ public class BasePage implements Closeable  {
 	protected WebDriver getDriver() {
 		return DriverInstanceManager.getDriverInstance();
 	}
-	
 	protected WebElement findElementInside(By by) {
 		return getDriver().findElement(this.locator).findElement(by);
 	}
@@ -36,7 +34,6 @@ public class BasePage implements Closeable  {
 	public String getUrl() {
 		return getDriver().getCurrentUrl();
 	}
-
 	public String getTitle(){
 		return getDriver().getTitle();
 	}

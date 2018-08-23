@@ -11,19 +11,15 @@ public class Test1 extends BaseTest {
 	private GooglePage googlePage;
 	private ResultPage resultPage;
 	
-	public Test1()
-	{
+	public Test1() {
 		this.resultPage = new ResultPage();
 		this.googlePage = new GooglePage();
 	}
 
 	@BeforeMethod
 	public void goHome(){
-		DriverInstanceManager.getDriverInstance()
-				.navigate()
-				.to(PropertyInstanceManager
-						.getPropertyInstance()
-						.getProperty("URL"));
+		DriverInstanceManager.getDriverInstance().navigate().to(PropertyInstanceManager
+				.getPropertyInstance().getProperty("URL"));
 	}
 	
 	@Test(dataProvider = "searchData")
@@ -32,10 +28,7 @@ public class Test1 extends BaseTest {
 		googlePage.search_txtb().sendText(title);
 		googlePage.search_txtb().submit();
 		googlePage.result_link(link).click();
-		Assert.assertTrue(resultPage.
-							getTitle().
-							toLowerCase().
-							contains(title),
-							"Result Page Title is different from expected");
+		Assert.assertTrue(resultPage.getTitle().toLowerCase()
+                .contains(title), "Result Page Title is different from expected");
 	}
 }

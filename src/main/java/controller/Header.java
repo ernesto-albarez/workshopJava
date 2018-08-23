@@ -12,8 +12,7 @@ public class Header extends BaseController {
     public String getStyle(){
         try{
             return getElement().getAttribute("Style");
-        }
-        catch(NoSuchElementException e){
+        } catch(NoSuchElementException e){
             return null;
         }
     }

@@ -12,8 +12,7 @@ public class Label extends BaseController {
     public String getText(){
         try{
             return getElement().getText();
-        }
-        catch(NoSuchElementException e){
+        } catch(NoSuchElementException e){
             return null;
         }
     }

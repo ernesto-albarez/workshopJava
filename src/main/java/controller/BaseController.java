@@ -26,38 +26,26 @@ public class BaseController {
 		return getDriver().findElement(this.locator);
 	}
 	
-	public boolean isDisplayed()
-	{
-		try
-		{
+	public boolean isDisplayed() {
+		try {
 			return getElement().isDisplayed();
-		}
-		catch(NoSuchElementException e)
-		{
+		} catch(NoSuchElementException e) {
 			return false;
 		}
 	}
 	
-	public boolean isEnabled()
-	{
-		try
-		{
+	public boolean isEnabled() {
+		try {
 			return getElement().isEnabled();
-		}
-		catch(NoSuchElementException e)
-		{
+		} catch(NoSuchElementException e) {
 			return false;
 		}
 	}
 	
-	public boolean isSelected()
-	{
-		try
-		{
+	public boolean isSelected() {
+		try {
 			return getElement().isSelected();
-		}
-		catch(NoSuchElementException e)
-		{
+		} catch(NoSuchElementException e) {
 			return false;
 		}
 	}

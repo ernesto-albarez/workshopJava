@@ -10,14 +10,10 @@ public class Image extends BaseController {
 		super(by);
 	}
 	
-	public String getSource()
-	{
-		try
-		{
+	public String getSource() {
+		try {
 			return getElement().getAttribute("src");
-		}
-		catch(NoSuchElementException e)
-		{
+		} catch(NoSuchElementException e) {
 			return null;
 		}
 	}

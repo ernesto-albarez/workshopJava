@@ -9,38 +9,26 @@ public class Link extends BaseController {
         super(by);
     }
 
-    public String getLinkText()
-    {
-        try
-        {
+    public String getLinkText(){
+        try {
             return getElement().getAttribute("href");
-        }
-        catch(NoSuchElementException e)
-        {
+        } catch(NoSuchElementException e) {
             return null;
         }
     }
 
-    public String getText()
-    {
-        try
-        {
+    public String getText(){
+        try{
             return getElement().getText();
-        }
-        catch(NoSuchElementException e)
-        {
+        }catch(NoSuchElementException e){
             return null;
         }
     }
 
-    public void click()
-    {
-        try
-        {
+    public void click(){
+        try{
             getElement().click();
-        }
-        catch(NoSuchElementException e)
-        {
+        }catch(NoSuchElementException e){
             System.out.println(e.getMessage());
         }
     }

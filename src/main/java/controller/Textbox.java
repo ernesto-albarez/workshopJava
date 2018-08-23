@@ -11,39 +11,27 @@ public class Textbox extends BaseController {
 		super(by);
 	}
 	
-	public String getText()
-	{
-		try
-		{
+	public String getText() {
+		try {
 			return getElement().getAttribute("value");
-		}
-		catch(NoSuchElementException e)
-		{
+		} catch(NoSuchElementException e) {
 			return null;
 		}
 	}
 	
-	public void sendText(String text)
-	{
-		try
-		{
+	public void sendText(String text) {
+		try {
 			getElement().clear();
 			getElement().sendKeys(text);
-		}
-		catch(NoSuchElementException e)
-		{
+		} catch(NoSuchElementException e) {
 			System.out.println(e.getMessage());
 		}
 	}
 	
-	public void submit()
-	{
-		try
-		{
+	public void submit() {
+		try {
 			getElement().sendKeys(Keys.ENTER);
-		}
-		catch(NoSuchElementException e)
-		{
+		} catch(NoSuchElementException e) {
 			System.out.println(e.getMessage());
 		}
 	}

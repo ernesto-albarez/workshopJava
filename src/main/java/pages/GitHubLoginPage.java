@@ -16,9 +16,7 @@ public class GitHubLoginPage extends BasePage {
     public Link sign_in_link(){
         try{
             return new Link(By.xpath("//a[@href='/login']"));
-
-        }
-        catch(NoSuchElementException e){
+        } catch(NoSuchElementException e){
             return null;
         }
     }
@@ -26,9 +24,7 @@ public class GitHubLoginPage extends BasePage {
     public Textbox username_txtb(){
         try{
             return new Textbox(By.id("login_field"));
-
-        }
-        catch(NoSuchElementException e){
+        } catch(NoSuchElementException e){
             return null;
         }
     }
@@ -36,9 +32,7 @@ public class GitHubLoginPage extends BasePage {
     public Textbox password_txtb(){
         try{
             return new Textbox(By.id("password"));
-
-        }
-        catch(NoSuchElementException e){
+        } catch(NoSuchElementException e){
             return null;
         }
     }
@@ -46,9 +40,7 @@ public class GitHubLoginPage extends BasePage {
     public Label loginError_lbl(){
         try{
             return new Label(By.id("js-flash-container"));
-
-        }
-        catch(NoSuchElementException e){
+        } catch(NoSuchElementException e){
             return null;
         }
     }
@@ -56,9 +48,7 @@ public class GitHubLoginPage extends BasePage {
     public Button sign_in_btn(){
         try{
             return new Button(By.name("commit"));
-
-        }
-        catch(NoSuchElementException e){
+        } catch(NoSuchElementException e){
             return null;
         }
     }

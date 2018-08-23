@@ -10,26 +10,18 @@ public class Button extends BaseController {
 		super(by);
 	}
 
-	public void click()
-	{
-		try
-		{
+	public void click() {
+		try {
 			getElement().click();
-		}
-		catch(NoSuchElementException e)
-		{
+		} catch(NoSuchElementException e) {
 			System.out.println(e.getMessage());
 		}
 	}
 
-	public String getText()
-	{
-		try
-		{
+	public String getText() {
+		try {
 			return getElement().getText();
-		}
-		catch(NoSuchElementException e)
-		{
+		} catch(NoSuchElementException e) {
 			return null;
 		}
 	}
@@ -37,8 +29,7 @@ public class Button extends BaseController {
 	public boolean isDisplayed(){
 		try{
 			return getElement().isDisplayed();
-		}
-		catch(NoSuchElementException e){
+		} catch(NoSuchElementException e){
 			return false;
 		}
 	}

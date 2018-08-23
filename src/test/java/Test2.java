@@ -17,17 +17,14 @@ public class Test2 extends BaseTest {
     }
 
     @BeforeMethod
-    public void goHome(){
-        DriverInstanceManager.getDriverInstance()
-                .navigate()
-                .to("https://github.com/");
-    }
+    public void goHome(){ DriverInstanceManager.getDriverInstance().navigate().to("https://github.com/"); }
 
     @Test(priority = 1)
     public void invalid_login_empty_fields(){
         gitHubLoginPage.sign_in_link().click();
         gitHubLoginPage.sign_in_btn().click();
-        Assert.assertTrue(gitHubLoginPage.loginError_lbl().getText().toLowerCase().contains("incorrect username or password"));
+        Assert.assertTrue(gitHubLoginPage.loginError_lbl().getText().toLowerCase()
+                .contains("incorrect username or password"));
     }
 
     @Test(priority = 2)
@@ -35,7 +32,8 @@ public class Test2 extends BaseTest {
         gitHubLoginPage.sign_in_link().click();
         gitHubLoginPage.password_txtb().sendText("Demo12345");
         gitHubLoginPage.sign_in_btn().click();
-        Assert.assertTrue(gitHubLoginPage.loginError_lbl().getText().toLowerCase().contains("incorrect username or password"));
+        Assert.assertTrue(gitHubLoginPage.loginError_lbl().getText().toLowerCase()
+                .contains("incorrect username or password"));
     }
 
     @Test(priority = 3)
@@ -43,7 +41,8 @@ public class Test2 extends BaseTest {
         gitHubLoginPage.sign_in_link().click();
         gitHubLoginPage.username_txtb().sendText("AutDemo123");
         gitHubLoginPage.sign_in_btn().click();
-        Assert.assertTrue(gitHubLoginPage.loginError_lbl().getText().toLowerCase().contains("incorrect username or password"));
+        Assert.assertTrue(gitHubLoginPage.loginError_lbl().getText().toLowerCase().
+                contains("incorrect username or password"));
     }
 
     @Test(priority = 4)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite1" verbose="1">
 	<!--
-	<test name="test1">
+	<test name="test ff">
 		<parameter name="browser" value="ff" />
 		<classes>
 			<class name="Test2" />
@@ -9,7 +9,7 @@
 	</test>
 	-->
 
-	<test name="test2">
+	<test name="test chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="Test3" />

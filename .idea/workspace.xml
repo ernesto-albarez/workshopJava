@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57eb43cb-967d-46d2-b5d9-2c8d49743965" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SectionsPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NineGagPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workshopJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workshopJava.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aut_demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/maven-status/" />
     <ignored path="$PROJECT_DIR$/target/surefire-reports/" />
@@ -23,6 +23,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-172314899">
@@ -74,66 +81,74 @@
     <session id="1951405015">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="iml" value="6" />
-          <entry key="java" value="12" />
-          <entry key="xml" value="19" />
+          <entry key="class" value="5" />
+          <entry key="gif" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="iml" value="8" />
+          <entry key="java" value="46" />
+          <entry key="jpg" value="1" />
+          <entry key="md" value="1" />
+          <entry key="property" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="6" />
-          <entry key="JAVA" value="12" />
-          <entry key="XML" value="19" />
+          <entry key="CLASS" value="5" />
+          <entry key="IDEA_MODULE" value="8" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="46" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="115" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="4" />
+          <entry key="JAVA" value="221" />
+          <entry key="PLAIN_TEXT" value="84" />
+          <entry key="XML" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="115" />
-          <entry key="xml" value="4" />
+          <entry key="gitignore" value="74" />
+          <entry key="java" value="221" />
+          <entry key="txt" value="6" />
+          <entry key="xml" value="44" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/NineGagPage.java">
+        <entry file="file://$PROJECT_DIR$/result.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/SectionsPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state>
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#133#267#0" />
               </folding>
             </state>
           </provider>
@@ -142,17 +157,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1456">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="2125">
+              <caret line="147" column="48" selection-start-line="147" selection-start-column="48" selection-end-line="147" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Link.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -187,6 +205,9 @@
       <find>ultimateqaPage</find>
       <find>go bac</find>
       <find>//Go back home url</find>
+      <find>sc</find>
+      <find>2.22.0</find>
+      <find>idea</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,10 +229,27 @@
         <option value="$PROJECT_DIR$/auto_demo/result.xml" />
         <option value="$PROJECT_DIR$/auto_demo/src/test/java/Test3.java" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/result.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pages/NineGag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/UltimateqaPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/NineGagPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Link.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/GooglePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Button.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Header.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Image.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Label.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/PlaceHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Textbox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/GitHubHomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/GitHubLoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/SectionsPanel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/result.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -219,7 +257,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="mavenHome" value="Bundled (Maven 2)" />
+        <option name="mavenHome" value="C:/ProgramData/chocolatey/lib/maven/apache-maven-3.5.4" />
         <option name="pluginUpdatePolicy" value="UPDATE" />
       </MavenGeneralSettings>
     </option>
@@ -242,28 +280,15 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="aut_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="aut_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.maven.plugins:maven-surefire-plugin:2.22.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="aut_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.maven.plugins:maven-surefire-plugin:2.22.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.maven.surefire:maven-surefire-common:2.22.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="171" />
+    <option name="y" value="84" />
     <option name="width" value="1613" />
     <option name="height" value="888" />
   </component>
@@ -276,8 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,35 +313,6 @@
               <item name="workshopJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="workshopJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshopJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workshopJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshopJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workshopJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshopJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workshopJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshopJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workshopJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workshopJava" type="b2602c69:ProjectViewProjectNode" />
@@ -336,13 +331,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;getlinktext&#9;PSI&#9;JAVA://javax.swing.JEditorPane.JEditorPaneAccessibleHypertextSupport#getLinkText" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535051450010" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../startUsingJavaJUnit" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535139911780" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -446,10 +442,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="171" y="84" width="1613" height="888" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19253059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,15 +454,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64072496" weight="0.29365963" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5815565" weight="0.38030097" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7553305" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.5351812" weight="0.29810902" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.57995737" visible="true" weight="0.20244716" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.45842218" side_tool="true" weight="0.29365963" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.5351812" weight="0.29685363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.57995737" visible="true" weight="0.31874144" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4184435" side_tool="true" weight="0.4160178" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5415778" weight="0.29365963" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.51167965" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.124200426" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -474,7 +470,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.14818764" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.2015454" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,29 +512,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/driver/DriverExtension.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/driver/DriverInstanceManager.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/driver/WebElementExtension.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/SrollBar.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Header.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/GitHubHomePage.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/target/test-classes/Test3.class" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Textbox.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/BaseController.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Button.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Label.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Image.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/BasePage.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/test/java/Test2.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/PlaceHolder.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/resources/config.property" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/controller/Link.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/test/java/BaseTest.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/target/surefire-reports/emailable-report.html" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/data/ExcelDataProvider.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/data/PropertiesProvider.java" />
-    <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/GooglePage.java" />
     <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/GitHubLoginPage.java" />
     <entry file="file://$PROJECT_DIR$/auto_demo/src/main/java/pages/ResultPage.java" />
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
@@ -562,28 +535,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/auto_demo/.idea/workspace.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workshopJava.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aut_demo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="55" column="103" selection-start-line="55" selection-start-column="103" selection-end-line="55" selection-end-column="103" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -599,71 +555,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/GooglePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="482">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/NineGagPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state relative-caret-position="465">
+          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Label.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/GitHubLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/UltimateqaPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="635">
+          <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Label.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PlaceHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Link.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/GitHubLoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SectionsPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/NineGagPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Textbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Test3.class" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/BaseTest.class" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Test1.class" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Test2.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1-sources.jar!/org/codehaus/plexus/component/composition/FieldComponentComposer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.property">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/it_selects_a_random_post_and_opens/ss2018-08-10_15-10-59.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/GitHubHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="98" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/annotations/BeforeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#133#267#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aut_demo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="91" selection-start-line="49" selection-start-column="91" selection-end-line="49" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/collapseall.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TestSuite.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1456">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SectionsPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="2125">
+          <caret line="147" column="48" selection-start-line="147" selection-start-column="48" selection-end-line="147" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Link.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="clean compile test -e" />
     <option value="clean compile test" />
   </component>
 </project>

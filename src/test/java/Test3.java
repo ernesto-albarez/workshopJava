@@ -93,7 +93,7 @@ public class Test3 extends BaseTest {
         //Had to scroll back because next test was failing
         js.executeScript("window.scrollBy(0,-1000)");
     }
-
+    /*
     @Test(priority = 10) //3. Abrir un post RANDOM del panel derecho y verificar que cambie la URL
     public void it_opens_a_random_post(){
         //Home url in a sting to use it on assert
@@ -106,7 +106,7 @@ public class Test3 extends BaseTest {
         //Assert given random url is not the same as home url
         Assert.assertFalse(home_url.toLowerCase().equals(DriverInstanceManager.getDriverInstance()
                 .getCurrentUrl().toLowerCase()));
-    }
+    }*/
 
     @Test(priority = 11) //3. Abrir un post RANDOM del panel derecho y verificar que cambie la URL
     public void it_selects_a_random_post_and_opens(){

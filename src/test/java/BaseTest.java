@@ -1,6 +1,6 @@
-import java.io.Closeable;
-import java.io.IOException;
-
+import data.ExcelDataProvider;
+import driver.DriverExtension;
+import driver.DriverInstanceManager;
 import helpers.PropertyInstanceManager;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -9,9 +9,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
-import driver.DriverExtension;
-import driver.DriverInstanceManager;
-import data.ExcelDataProvider;
+
+import java.io.Closeable;
+import java.io.IOException;
 
 public class BaseTest implements Closeable,ITestListener {
 
@@ -23,8 +23,7 @@ public class BaseTest implements Closeable,ITestListener {
 	}
 	
 	@DataProvider(name="searchData")
-	public Object[][] dataProvider()
-	{
+	public Object[][] dataProvider(){
 		ExcelDataProvider edp = new ExcelDataProvider(PropertyInstanceManager
                                                     .getPropertyInstance()
                                                     .getProperty("ExcelPath"));
@@ -33,34 +32,23 @@ public class BaseTest implements Closeable,ITestListener {
 		
 		Object[][] data = new Object[rows][columns];
 		
-		for(int i = 0; i<rows; i++)
-		{			
-			for(int j = 0; j<columns; j++)
-			{
+		for(int i = 0; i<rows; i++){
+			for(int j = 0; j<columns; j++){
 				data[i][j] = edp.getData(0, i, j);
 			}
-			
 		}
-
 		return data;
 	}
 
 	@AfterTest
 	@Override
-	public void close() throws IOException {
-		DriverInstanceManager.closeDriver();
-		
-	}
+	public void close() throws IOException { DriverInstanceManager.closeDriver(); }
 
     @Override
-    public void onTestStart(ITestResult iTestResult) {
-
-    }
+    public void onTestStart(ITestResult iTestResult) {}
 
     @Override
-    public void onTestSuccess(ITestResult iTestResult) {
-
-    }
+    public void onTestSuccess(ITestResult iTestResult) {}
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
@@ -68,22 +56,14 @@ public class BaseTest implements Closeable,ITestListener {
     }
 
     @Override
-    public void onTestSkipped(ITestResult iTestResult) {
-
-    }
+    public void onTestSkipped(ITestResult iTestResult) {}
 
     @Override
-    public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {
-
-    }
+    public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {}
 
     @Override
-    public void onStart(ITestContext iTestContext) {
-
-    }
+    public void onStart(ITestContext iTestContext) {}
 
     @Override
-    public void onFinish(ITestContext iTestContext) {
-
-    }
+    public void onFinish(ITestContext iTestContext) {}
 }

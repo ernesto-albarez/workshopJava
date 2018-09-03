@@ -29,7 +29,7 @@ public class Test3 extends BaseTest {
     }
 
     @BeforeMethod
-    public void ultimateqaWorkshop(){
+    public void goHome(){
         DriverInstanceManager.getDriverInstance().navigate().to("https://www.ultimateqa.com/automation/");
     }
 
@@ -56,7 +56,7 @@ public class Test3 extends BaseTest {
 
     @Test(priority = 5) //1. Verificar el ribbon entero
     public void it_finds_the_wok_with_us_link(){
-        Assert.assertTrue(ultimateqaPage.workwithus_link().getText().toLowerCase().contains("work with us"));
+        Assert.assertTrue(ultimateqaPage.work_with_us_link().getText().toLowerCase().contains("work with us"));
     }
 
     @Test(priority = 6) //1. Verificar el ribbon entero
@@ -88,7 +88,7 @@ public class Test3 extends BaseTest {
         js.executeScript("window.scrollBy(0,1000)");
 
         //Assert header size had changed
-        Assert.assertFalse(ultimateqaPage.home_header().getStyle().toLowerCase().equals(header_style));
+        Assert.assertNotEquals(ultimateqaPage.home_header().getStyle().toLowerCase(),header_style);
 
         //Had to scroll back because next test was failing
         js.executeScript("window.scrollBy(0,-1000)");
@@ -126,8 +126,8 @@ public class Test3 extends BaseTest {
         pause();    //waiting page to load
 
         //Assert given random url is not the same as home url
-        Assert.assertFalse(home_url.toLowerCase().equals(DriverInstanceManager.getDriverInstance().
-                getCurrentUrl().toLowerCase()));
+        Assert.assertNotEquals(home_url.toLowerCase(),
+                DriverInstanceManager.getDriverInstance().getCurrentUrl().toLowerCase());
     }
 
     @Test(priority = 12) //5. Hacer PO de la página de resultados con una property estilo lista de cada posteo

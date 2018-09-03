@@ -58,7 +58,7 @@ public class UltimateqaPage extends BasePage {
         }
     }
 
-    public Link workwithus_link(){
+    public Link work_with_us_link(){
         try {
             return new Link(By.id("menu-item-4768"));
         } catch (NoSuchElementException e){

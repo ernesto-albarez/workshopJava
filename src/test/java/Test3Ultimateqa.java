@@ -12,11 +12,11 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-public class Test3 extends BaseTest {
+public class Test3Ultimateqa extends BaseTest {
 
     private UltimateqaPage ultimateqaPage;
 
-    public Test3(){
+    public Test3Ultimateqa(){
         this.ultimateqaPage = new UltimateqaPage();
     }
 
@@ -35,28 +35,27 @@ public class Test3 extends BaseTest {
 
     @Test(priority = 1) //1. Verificar el ribbon entero
     public void it_finds_the_video_link(){
-        Assert.assertTrue(ultimateqaPage.video_link().getText().toLowerCase().contains("video tutorials"));
+        Assert.assertNotEquals(ultimateqaPage.header_link_one().getLinkText(),"");
     }
 
     @Test(priority = 2) //1. Verificar el ribbon entero
     public void it_finds_the_selenium_link(){
-        Assert.assertTrue(ultimateqaPage.resources_link().getText().toLowerCase().
-                contains("selenium webdriver resources"));
+        Assert.assertNotEquals(ultimateqaPage.header_link_two().getLinkText(),"");
     }
 
     @Test(priority = 3) //1. Verificar el ribbon entero
     public void it_finds_the_exercises_link(){
-        Assert.assertTrue(ultimateqaPage.exercises_link().getText().toLowerCase().contains("automation exercises"));
+        Assert.assertNotEquals(ultimateqaPage.header_link_three().getLinkText(),"");
     }
 
     @Test(priority = 4) //1. Verificar el ribbon entero
     public void it_finds_the_blog_link(){
-        Assert.assertTrue(ultimateqaPage.blog_link().getText().toLowerCase().contains("blog"));
+        Assert.assertNotEquals(ultimateqaPage.header_link_four().getLinkText(),"");
     }
 
     @Test(priority = 5) //1. Verificar el ribbon entero
     public void it_finds_the_wok_with_us_link(){
-        Assert.assertTrue(ultimateqaPage.work_with_us_link().getText().toLowerCase().contains("work with us"));
+        Assert.assertNotEquals(ultimateqaPage.header_link_five().getLinkText(),"");
     }
 
     @Test(priority = 6) //1. Verificar el ribbon entero
@@ -66,7 +65,7 @@ public class Test3 extends BaseTest {
 
     @Test(priority = 7) //1. Verificar el ribbon entero
     public void it_finds_the_ultimate_logo(){
-        Assert.assertTrue(ultimateqaPage.main_logo().getSource().toLowerCase().contains("uqa-transparent.png"));
+        Assert.assertEquals(ultimateqaPage.main_logo().getAltAttribute(),"Ultimate QA");
     }
 
     @Test(priority = 8) //2. Verificar que al hacer click en la lupa abre input de search
@@ -93,7 +92,7 @@ public class Test3 extends BaseTest {
         //Had to scroll back because next test was failing
         js.executeScript("window.scrollBy(0,-1000)");
     }
-    /*
+
     @Test(priority = 10) //3. Abrir un post RANDOM del panel derecho y verificar que cambie la URL
     public void it_opens_a_random_post(){
         //Home url in a sting to use it on assert
@@ -106,7 +105,7 @@ public class Test3 extends BaseTest {
         //Assert given random url is not the same as home url
         Assert.assertFalse(home_url.toLowerCase().equals(DriverInstanceManager.getDriverInstance()
                 .getCurrentUrl().toLowerCase()));
-    }*/
+    }
 
     @Test(priority = 11) //3. Abrir un post RANDOM del panel derecho y verificar que cambie la URL
     public void it_selects_a_random_post_and_opens(){

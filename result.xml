@@ -12,11 +12,11 @@
 	<test name="test chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="Test4Yopmail" />
+			<class name="Test3Ultimateqa" />
 		</classes>
 	</test>
 
 	<listeners>
-		<listener class-name="Test4Yopmail" />
+		<listener class-name="Test3Ultimateqa" />
 	</listeners>
 </suite>

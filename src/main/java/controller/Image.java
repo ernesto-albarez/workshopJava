@@ -9,13 +9,12 @@ public class Image extends BaseController {
 	{
 		super(by);
 	}
-	
-	public String getSource() {
-		try {
-			return getElement().getAttribute("src");
-		} catch(NoSuchElementException e) {
-			return null;
-		}
-	}
 
+	public String getAltAttribute(){
+		try {
+			return getElement().getAttribute("alt");
+		}catch (NoSuchElementException e){
+		    return null;
+        }
+	}
 }

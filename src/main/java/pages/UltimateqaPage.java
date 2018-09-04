@@ -20,48 +20,48 @@ public class UltimateqaPage extends BasePage {
 
     public Image main_logo(){
         try {
-            return new Image(By.id("logo"));
+            return new Image(By.xpath("//div/a/img[@id = 'logo']"));
         } catch (NoSuchElementException e){
             return null;
         }
     }
 
-    public Link video_link(){
+    public Link header_link_one(){
         try {
-            return new Link(By.id("menu-item-504"));
+            return new Link(By.xpath("//nav/ul/li[1]/a"));
         } catch (NoSuchElementException e){
             return null;
         }
     }
 
-    public Link resources_link(){
+    public Link header_link_two(){
         try {
-            return new Link(By.id("menu-item-4047"));
-        } catch (NoSuchElementException e){
+            return new Link(By.xpath("//nav/ul/li[2]/a"));
+        }catch (NoSuchElementException e){
             return null;
         }
     }
 
-    public Link exercises_link(){
+    public Link header_link_three(){
         try {
-            return new Link(By.id("menu-item-587"));
-        } catch (NoSuchElementException e){
+            return new Link(By.xpath("//nav/ul/li[3]/a"));
+        }catch (NoSuchElementException e){
             return null;
         }
     }
 
-    public Link blog_link(){
+    public Link header_link_four(){
         try {
-            return new Link(By.id("menu-item-477"));
-        } catch (NoSuchElementException e){
+            return new Link(By.xpath("//nav/ul/li[4]/a"));
+        }catch (NoSuchElementException e){
             return null;
         }
     }
 
-    public Link work_with_us_link(){
+    public Link header_link_five(){
         try {
-            return new Link(By.id("menu-item-4768"));
-        } catch (NoSuchElementException e){
+            return new Link(By.xpath("//nav/ul/li[5]/a"));
+        }catch (NoSuchElementException e){
             return null;
         }
     }
@@ -76,8 +76,7 @@ public class UltimateqaPage extends BasePage {
 
     public Link random_url(){
         try {
-            return new Link(By.xpath(
-                    "//a[contains(@href,'best-test-automation-websites-to-practice-using-selenium-webdriver')]"));
+            return new Link(By.xpath("//div[@id = 'recent-posts-2']/ul/li[1]/a"));
         } catch (NoSuchElementException e){
             return null;
         }
@@ -85,7 +84,7 @@ public class UltimateqaPage extends BasePage {
 
     public Header home_header(){
         try {
-            return new Header(By.id("page-container"));
+            return new Header(By.xpath("//div/input[@name = 's']"));
         } catch (NoSuchElementException e){
             return null;
         }

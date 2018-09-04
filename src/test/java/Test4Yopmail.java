@@ -13,6 +13,15 @@ public class Test4Yopmail extends BaseTest{
 
     @Test
     public void it_gets_login_button_text(){
-        Assert.assertEquals(yopmailPage.check_inbox_btn().getText().toLowerCase(),"check inbox");
+        Assert.assertEquals(yopmailPage.inbox_btn().getText().toLowerCase(),"check inbox");
+    }
+
+    @Test
+    public void it_open_a_new_usermail(){
+        yopmailPage.inbox_user_textbox().sendText("usertestmail");
+        yopmailPage.inbox_btn().click();
+
+        Assert.assertEquals(yopmailPage.banner_name().getText().toLowerCase(),
+                "usertestmail@yopmail.com");
     }
 }

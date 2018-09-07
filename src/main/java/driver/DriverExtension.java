@@ -1,9 +1,5 @@
 package driver;
 
-import java.io.File;
-import java.io.IOException;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import helpers.PropertyInstanceManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -13,14 +9,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class DriverExtension {
 
 	public static WebElement findElementWait(By by) {
-		return new WebDriverWait(DriverInstanceManager.getDriverInstance(), DriverInstanceManager.getTimeOut()).until(x -> x.findElement(by));
+		return new WebDriverWait(DriverInstanceManager.getDriverInstance(),
+				DriverInstanceManager.getTimeOut()).until(x -> x.findElement(by));
 	}
 
 	public static Iterable<WebElement> findElementsWait(By by) {
-		return new WebDriverWait(DriverInstanceManager.getDriverInstance(), DriverInstanceManager.getTimeOut()).until(x -> x.findElements(by));
+		return new WebDriverWait(DriverInstanceManager.getDriverInstance(),
+                DriverInstanceManager.getTimeOut()).until(x -> x.findElements(by));
 	}
 
 	public static boolean elementExists(By by) {
@@ -34,7 +37,8 @@ public class DriverExtension {
 
 	public static boolean elementIsClickable(By by) {
 		try {
-			return ExpectedConditions.elementToBeClickable(by).apply(DriverInstanceManager.getDriverInstance()) != null;
+			return ExpectedConditions.elementToBeClickable(by).
+                    apply(DriverInstanceManager.getDriverInstance()) != null;
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			return false;
@@ -43,7 +47,8 @@ public class DriverExtension {
 
 	public static boolean elementIsVisible(By by) {
 		try {
-			return ExpectedConditions.visibilityOfElementLocated(by).apply(DriverInstanceManager.getDriverInstance()) != null;
+			return ExpectedConditions.visibilityOfElementLocated(by).
+                    apply(DriverInstanceManager.getDriverInstance()) != null;
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			return false;
@@ -53,7 +58,8 @@ public class DriverExtension {
 	public static boolean elementIsNotVisible(By by) {
 
 		try {
-			return ExpectedConditions.invisibilityOfElementLocated(by).apply(DriverInstanceManager.getDriverInstance()) != null;
+			return ExpectedConditions.invisibilityOfElementLocated(by).
+                    apply(DriverInstanceManager.getDriverInstance()) != null;
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			return false;
@@ -66,9 +72,9 @@ public class DriverExtension {
 		TakesScreenshot ts = (TakesScreenshot) DriverInstanceManager.getDriverInstance();
 		try {
 			FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),
-					new File(PropertyInstanceManager.
-							getPropertyInstance().
-							getProperty("ScreenshotFolder") + testName + "\\ss" + dtf.format(LocalDateTime.now()) + ".jpg"));
+					new File(PropertyInstanceManager.getPropertyInstance().
+                            getProperty("ScreenshotFolder") + testName + "\\ss" +
+                            dtf.format(LocalDateTime.now()) + ".jpg"));
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}

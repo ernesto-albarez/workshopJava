@@ -9,10 +9,10 @@ public class Header extends BaseController {
         super(by);
     }
 
-    public String getStyle(){
-        try{
-            return getElement().getAttribute("Style");
-        } catch(NoSuchElementException e){
+    public String getHeaderClass(){
+        try {
+            return getElement().getAttribute("class");
+        }catch (NoSuchElementException e){
             return null;
         }
     }

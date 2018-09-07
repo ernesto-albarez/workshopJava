@@ -25,12 +25,4 @@ public class Button extends BaseController {
 			return null;
 		}
 	}
-
-	public boolean isDisplayed(){
-		try{
-			return getElement().isDisplayed();
-		} catch(NoSuchElementException e){
-			return false;
-		}
-	}
 }

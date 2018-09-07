@@ -1,12 +1,11 @@
 package pages;
 
-import java.io.Closeable;
-import java.io.IOException;
+import driver.DriverInstanceManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import driver.DriverInstanceManager;
+import java.io.Closeable;
 
 public class BasePage implements Closeable  {
 
@@ -14,7 +13,7 @@ public class BasePage implements Closeable  {
 	public BasePage(By by) {
 		this.locator = by;
 	}
-	
+
 	protected WebDriver getDriver() {
 		return DriverInstanceManager.getDriverInstance();
 	}
@@ -27,9 +26,7 @@ public class BasePage implements Closeable  {
 	}
 	
 	@Override
-	public void close() throws IOException {
-		DriverInstanceManager.closeDriver();
-	}
+	public void close(){ DriverInstanceManager.closeDriver(); }
 	
 	public String getUrl() {
 		return getDriver().getCurrentUrl();

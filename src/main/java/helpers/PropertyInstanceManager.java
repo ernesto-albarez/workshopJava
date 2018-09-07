@@ -9,10 +9,8 @@ public class PropertyInstanceManager {
 
     public static PropertiesProvider getPropertyInstance()
     {
-        if(property == null)
-        {
-            synchronized(DriverInstanceManager.class)
-            {
+        if(property == null) {
+            synchronized(DriverInstanceManager.class) {
                 property = new PropertiesProvider();
             }
         }

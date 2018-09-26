@@ -16,13 +16,11 @@ public class BaseController {
 		this.locator = by;
 	}
 	
-	protected WebDriver getDriver()
-	{
+	protected WebDriver getDriver() {
 		return DriverInstanceManager.getDriverInstance();
 	}
 	
-	protected WebElement getElement()
-	{
+	protected WebElement getElement() {
 		return getDriver().findElement(this.locator);
 	}
 	

@@ -56,7 +56,6 @@ public class DriverExtension {
 	}
 
 	public static boolean elementIsNotVisible(By by) {
-
 		try {
 			return ExpectedConditions.invisibilityOfElementLocated(by).
                     apply(DriverInstanceManager.getDriverInstance()) != null;
